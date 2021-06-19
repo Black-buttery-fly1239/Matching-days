@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <link rel="stylesheet" href="Matching-days.css">
+    <title>Document</title>
+
+    <script type="text/x-template" class="userTemplate">
+        {{#each regT}}
+        <td>{{this}}</td>
+        {{/each}}
+        </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row-1">
+            <h1>Matching Days</h1>
+            <hr>
+        </div><br>
+        <br>
+
+        <table>
+            <tr class="userData">
+
+            </tr>
+        </table><br>
+        <br>
+
+        <div class=thathaDate>
+            <div class="date-1">
+                <label for="first date">First date</label>
+                <input type="date" id="first" name="date1">
+            </div><br>
+            <br>
+
+            <div class="date-2">
+                <label for="second date">Second date</label>
+                <input type="date" id="date" name="date2" >
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+<script src="MatchingDaysFactory.js"></script>
+<script src="Matching-days.js"></script>
+
+</html>
